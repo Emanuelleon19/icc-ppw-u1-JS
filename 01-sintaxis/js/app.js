@@ -19,3 +19,7 @@ const esMayorEdad = (edad) => edad >= 18;
 const getSaludo = (nombre , hora) => 
      hora < 12 ? `Buenos dias, ${nombre}` : hora <18 ? `Buenas tardes ${nombre}` : `Buenas noches , ${nombre}`;
 
+// Mostrar en HTML 
+document.getElementById('nombre').textContent = `${nombre}`;
+document.getElementById('apellido').textContent = `${apellido}`;
+document.getElementById('ciclo').textContent = `${ciclo}`;
